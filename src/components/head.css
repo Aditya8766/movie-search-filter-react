@@ -1,0 +1,11 @@
+.header{
+   background: black;
+   color: aliceblue;
+}
+.header h1{
+    color: aliceblue;
+}
+.header img{
+    width: 30px;
+    float: left;
+}

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.cards{
+    width: 100%;
+    
+    /* background-color: rgb(50 54 60); */
+    margin-left: 85px;
+   
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.container{
+    width: 26%;
+    margin: 20px 20px;
+    background-color: rgb(125 129 137);
+}
+
+.container img{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.container button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: aqua;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    width: 50%;
+}
+.container button:hover{
+    background-color: purple;
+    color: white;
+    transition: .5%;
+    cursor: pointer;
+} 
+.container h5{
+    float: left;
+    font-size: medium;
+    margin-left: 10px;
+}
+.container h6{
+    float: left;
+    font-size: small;
+    margin-left: 10px;
+}
