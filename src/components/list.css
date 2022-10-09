@@ -9,7 +9,7 @@
     
     /* background-color: rgb(50 54 60); */
     margin-left: -1px;
-   
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     
