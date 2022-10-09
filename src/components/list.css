@@ -8,14 +8,14 @@
     width: 100%;
     
     /* background-color: rgb(50 54 60); */
-    margin-left: 85px;
+    margin-left: -1px;
    
     display: flex;
     flex-wrap: wrap;
     
 }
 .container{
-    width: 26%;
+    flex-basis: min-content;
     margin: 20px 20px;
     background-color: rgb(125 129 137);
 }
