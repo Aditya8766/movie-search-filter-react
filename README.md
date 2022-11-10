@@ -1,5 +1,5 @@
 # Live URL
-Open https://search-filter-adityabhosale.herokuapp.com/
+Open https://adityabhosalesearchfilter.herokuapp.com/
 
 
 # Getting Started with Create React App
