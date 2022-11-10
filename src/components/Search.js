@@ -3,14 +3,14 @@ import './search.css';
 
 function Search(props) {
     return (
-      <div class="search">
-        <input type="text" placeholder="Search..." onChange={(event) => props.handleSearch(event)} />
-
+      <div className="search">
+       
+       <input type="text" aria-label="cost-input" name="search" placeholder="Search..." onChange={(event) => props.handleSearch(event)} />
       {
-        props.filteredData.map((S)=>{
+        props.filteredData && props.filteredData.map((S)=>{
           return(
             
-            <div class="filter">
+            <div className="filter">
             {S.original_title}
             </div>
             )
